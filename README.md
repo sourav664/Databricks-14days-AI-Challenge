@@ -70,6 +70,43 @@ Grateful for the initiative and support from **Databricks**, **Codebasics**, and
 
 ---
 
+## ✅ Day 3 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Successfully completed **Day 3**, focusing on a deep dive into **PySpark transformations** and how they compare to traditional data processing approaches.
+
+---
+
+## 📘 Key Concepts Learned
+
+### 🔹 PySpark vs Pandas
+
+- **PySpark** enables distributed, parallel processing for large-scale datasets.
+- **Pandas** is optimized for in-memory, single-machine analysis.
+
+### 🔹 Joins in PySpark
+
+- Implemented **inner**, **left**, **right**, and **outer joins** to combine large datasets efficiently in a distributed environment.
+
+### 🔹 Window Functions
+
+- Used window functions for **running totals**, **rankings**, and **partition-based calculations** without collapsing data granularity.
+
+### 🔹 User-Defined Functions (UDFs)
+
+- Created **UDFs** to apply custom business logic when built-in Spark functions were insufficient.
+
+---
+
+## 🛠️ Tasks Completed
+
+-  Loaded the full **e-commerce dataset** into Spark
+-  Performed **complex joins** across multiple tables
+-  Calculated **running totals** using window functions
+-  Created **derived features** for downstream analysis
+
+---
+
 ### 🔖 Hashtags
 `#Databricks` `#AIChallenge` `#ApacheSpark` `#PySpark` `#BigData` `#DataEngineering` `#DatabricksWithIDC`
 
