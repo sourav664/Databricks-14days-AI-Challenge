@@ -142,6 +142,43 @@ Delta Lake enforces schemas at write time by validating incoming data against a 
 - ✔ Tested **schema enforcement** to prevent bad data  
 - ✔ Handled **duplicate inserts** safely using Delta Lake features
 
+## ✅ Day 5 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Completed **Day 5**, diving into **advanced Delta Lake concepts** that are critical for building reliable, high-performance data pipelines.
+
+---
+
+### 📘 Key Concepts Learned
+
+#### 🔹 Time Travel (Version History)
+Enables querying **previous versions** of Delta tables, supporting **experiment reproducibility, data debugging, and safe rollbacks** after faulty updates.
+
+---
+
+#### 🔹 MERGE Operations (Upserts)
+Allows **atomic updates and inserts** in a single operation, making it ideal for **incremental data ingestion** and maintaining clean, consistent feature tables.
+
+---
+
+#### 🔹 OPTIMIZE & ZORDER
+- **OPTIMIZE** compacts many small files into larger ones to improve query performance.  
+- **ZORDER** colocates related data on disk, significantly speeding up queries that filter on key columns.
+
+---
+
+#### 🔹 VACUUM (Cleanup)
+Removes obsolete files that are no longer required, helping **control storage costs** while keeping Delta tables clean and efficient.
+
+---
+
+### 🛠️ Tasks Completed
+- ✔ Queried historical versions using **Time Travel**  
+- ✔ Implemented **MERGE** operations for upserts  
+- ✔ Improved query performance with **OPTIMIZE & ZORDER**  
+- ✔ Cleaned up storage using **VACUUM**
+
+
 
 ### 🔖 Hashtags
 `#Databricks` `#AIChallenge` `#ApacheSpark` `#PySpark` `#BigData` `#DataEngineering` `#DatabricksWithIDC`
