@@ -107,6 +107,42 @@ Successfully completed **Day 3**, focusing on a deep dive into **PySpark transfo
 
 ---
 
+## ✅ Day 4 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Completed **Day 4**, focusing on an introduction to **Delta Lake** and how it brings **reliability and governance** to modern data lakes.
+
+---
+
+### 🔹 What is Delta Lake?
+Delta Lake is an **open-source storage layer** that sits on top of data lakes (typically storing data in **Parquet** files) and adds reliability features such as **ACID transactions, schema enforcement, and time travel**.  
+It helps transform a *raw data lake* into a **production-ready, database-like analytics platform** for both batch and streaming workloads.
+
+---
+
+### 🔹 ACID Transactions
+Delta Lake provides **ACID guarantees** (Atomicity, Consistency, Isolation, Durability) for data operations, preventing **partial writes, inconsistent reads, and table corruption**, especially during concurrent writes.
+
+---
+
+### 🔹 Schema Enforcement
+Delta Lake enforces schemas at write time by validating incoming data against a predefined structure, **rejecting invalid or mismatched data** early to keep pipelines stable.
+
+---
+
+### 🔹 Delta Lake vs Parquet
+**Parquet** is an efficient columnar storage format.  
+**Delta Lake** builds on Parquet by adding a **transaction log and table semantics**, enabling **updates, deletes, time travel, ACID transactions, and higher data reliability**.
+
+---
+
+### 🛠️ Tasks Completed
+- ✔ Converted CSV data into **Delta format**  
+- ✔ Created **Delta tables** using **SQL and PySpark**  
+- ✔ Tested **schema enforcement** to prevent bad data  
+- ✔ Handled **duplicate inserts** safely using Delta Lake features
+
+
 ### 🔖 Hashtags
 `#Databricks` `#AIChallenge` `#ApacheSpark` `#PySpark` `#BigData` `#DataEngineering` `#DatabricksWithIDC`
 
