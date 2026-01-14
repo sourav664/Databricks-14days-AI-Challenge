@@ -17,14 +17,7 @@ I’ve successfully completed **Day 1** of the Databricks AI Challenge, and it w
 
 ---
 
-## 🛠️ Tasks Completed
 
-- Set up **Databricks Community Edition**
-- Explored **Workspace**, **Compute**, and **Data Explorer**
-- Created my **first Databricks notebook**
-- Executed basic **PySpark commands**
-
----
 
 ## ✅ Day 2 Completed – Databricks 14 Days AI Challenge  
 **Sponsored by Databricks**
@@ -55,14 +48,6 @@ I’ve successfully completed **Day 2** of the Databricks AI Challenge, focusing
 
 - Enable seamless language switching and file system access within a single notebook, boosting productivity and workflow efficiency.
 
----
-
-## 🛠️ Tasks Completed
-
-- ✔ Uploaded a sample **e-commerce CSV**
-- ✔ Loaded data into a **Spark DataFrame**
-- ✔ Performed transformations: `select`, `filter`, `groupBy`, `orderBy`
-- ✔ Exported processed results
 
 ---
 
@@ -96,14 +81,7 @@ Successfully completed **Day 3**, focusing on a deep dive into **PySpark transfo
 
 - Created **UDFs** to apply custom business logic when built-in Spark functions were insufficient.
 
----
 
-## 🛠️ Tasks Completed
-
--  Loaded the full **e-commerce dataset** into Spark
--  Performed **complex joins** across multiple tables
--  Calculated **running totals** using window functions
--  Created **derived features** for downstream analysis
 
 ---
 
@@ -134,13 +112,7 @@ Delta Lake enforces schemas at write time by validating incoming data against a 
 **Parquet** is an efficient columnar storage format.  
 **Delta Lake** builds on Parquet by adding a **transaction log and table semantics**, enabling **updates, deletes, time travel, ACID transactions, and higher data reliability**.
 
----
-
-### 🛠️ Tasks Completed
-- ✔ Converted CSV data into **Delta format**  
-- ✔ Created **Delta tables** using **SQL and PySpark**  
-- ✔ Tested **schema enforcement** to prevent bad data  
-- ✔ Handled **duplicate inserts** safely using Delta Lake features
+--- 
 
 ## ✅ Day 5 Completed – Databricks 14 Days AI Challenge  
 **Sponsored by Databricks**
@@ -172,12 +144,34 @@ Removes obsolete files that are no longer required, helping **control storage co
 
 ---
 
-### 🛠️ Tasks Completed
-- ✔ Queried historical versions using **Time Travel**  
-- ✔ Implemented **MERGE** operations for upserts  
-- ✔ Improved query performance with **OPTIMIZE & ZORDER**  
-- ✔ Cleaned up storage using **VACUUM**
+✅ Day 6 Completed – Databricks 14 Days AI Challenge
+Sponsored by Databricks
 
+Completed Day 6, focusing on the Medallion Architecture and how it enables scalable, reliable, and maintainable data pipelines in modern data platforms.
+
+📘 Key Concepts Learned
+
+🔹 Medallion Architecture (Bronze → Silver → Gold)
+A layered data design where:
+
+Bronze stores raw, immutable ingested data
+
+Silver applies cleaning, enrichment, and deduplication
+
+Gold contains business-ready, aggregated data optimized for analytics
+
+🔹 Best Practices for Each Layer
+
+Bronze: Append-only ingestion with minimal transformations
+
+Silver: Data quality checks, schema enforcement, and deduplication
+
+Gold: Optimized for BI, reporting, and analytics use cases
+
+🔹 Incremental Processing Patterns
+Processes only new or changed data, improving performance and reducing costs. Techniques like MERGE operations and watermarks enable reliable, scalable pipelines.
+
+---
 
 
 ### 🔖 Hashtags
