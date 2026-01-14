@@ -144,7 +144,7 @@ Removes obsolete files that are no longer required, helping **control storage co
 
 ---
 
-✅ Day 6 Completed – Databricks 14 Days AI Challenge
+## ✅ Day 6 Completed – Databricks 14 Days AI Challenge
 Sponsored by Databricks
 
 Completed Day 6, focusing on the Medallion Architecture and how it enables scalable, reliable, and maintainable data pipelines in modern data platforms.
