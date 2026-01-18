@@ -173,6 +173,202 @@ Processes only new or changed data, improving performance and reducing costs. Te
 
 ---
 
+## ✅ Day 7 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Completed **Day 7**, focusing on **Workflows & Job Orchestration in Databricks** and how they help build **reliable, automated data pipelines**.
+
+---
+
+## 📘 Key Concepts Learned
+
+### 🔹 Databricks Jobs vs Notebooks
+
+- **Notebooks**
+  - Interactive environments
+  - Used for development, experimentation, data exploration, and debugging
+
+- **Jobs**
+  - Production-ready executions of notebooks or scripts
+  - Designed to run automatically using schedules or event triggers
+
+---
+
+### 🔹 Multi-task Workflows
+
+- A **workflow** is a pipeline composed of multiple dependent tasks
+- Allows complex data pipelines to be:
+  - Broken into smaller steps
+  - More manageable
+  - Reusable and modular
+
+---
+
+### 🔹 Parameters & Scheduling
+
+- **Parameters**
+  - Allow the same notebook or job to run with different inputs  
+    (e.g., dates, file paths, model versions)
+
+- **Scheduling**
+  - Enables automatic execution at fixed intervals:
+    - Hourly
+    - Daily
+    - Weekly
+
+---
+
+### 🔹 Error Handling
+
+- Detects and logs job or workflow failures
+- Prevents silent failures
+- Improves overall pipeline reliability
+
+## ✅ Day 8 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Completed **Day 8**, focusing on **Unity Catalog Governance** and how it enables **secure, centralized data governance** across the Databricks Lakehouse.
+
+---
+
+## 📘 Key Concepts Learned
+
+### 🔹 Catalog → Schema → Table Hierarchy
+
+- Unity Catalog organizes data using a **three-level structure**:
+  - **Catalog** – Top-level container
+  - **Schema** – Database
+  - **Table** – Actual data storage
+
+---
+
+### 🔹 Access Control (GRANT / REVOKE)
+
+- Defines **who can read or modify data**
+- Uses fine-grained permissions such as:
+  - `SELECT`
+  - `MODIFY`
+- **Example**: Granting analysts read access to a sales table
+
+---
+
+### 🔹 Data Lineage
+
+- Tracks how data flows across:
+  - Tables
+  - Views
+  - Jobs
+- Helps understand:
+  - Data origins
+  - Downstream impact of changes
+
+---
+
+### 🔹 Managed vs External Tables
+
+- **Managed Tables**
+  - Fully controlled by Databricks
+  - Data lifecycle managed automatically
+
+- **External Tables**
+  - Data stored in external storage (e.g., S3, ADLS)
+  - Databricks manages metadata only
+## ✅ Day 9 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Completed **Day 9**, focusing on **SQL Analytics & Dashboards** and how **SQL Warehouses** power fast, interactive analytics in Databricks.
+
+---
+
+## 📘 Key Concepts Learned
+
+### 🔹 SQL Warehouses
+
+- Enable scalable, high-performance execution of SQL queries
+- Optimized for:
+  - BI workloads
+  - Analytical queries
+  - Interactive reporting
+
+---
+
+### 🔹 Complex Analytical Queries
+
+- Wrote advanced SQL using:
+  - Joins
+  - Window functions
+  - Aggregations
+  - Common Table Expressions (CTEs)
+- Used to derive meaningful **business insights**
+
+---
+
+### 🔹 Dashboard Creation
+
+- Built interactive dashboards to analyze:
+  - Revenue trends
+  - Conversion funnels
+  - Top-performing products
+
+---
+
+### 🔹 Visualizations & Filters
+
+- Used:
+  - Charts
+  - Filters
+  - Scheduled refreshes
+- Enabled dynamic, self-service analytics for stakeholders
+
+## ✅ Day 10 Completed – Databricks 14 Days AI Challenge  
+**Sponsored by Databricks**
+
+Completed **Day 10**, focusing on **performance optimization techniques** to improve **query efficiency and scalability** in Databricks.
+
+---
+
+## 📘 Key Concepts Learned
+
+### 🔹 Query Execution Plans
+
+- Learned how Spark SQL converts queries into:
+  - Logical plans
+  - Physical plans
+- Helps identify performance bottlenecks such as:
+  - Costly joins
+  - Data shuffles
+  - Full table scans
+
+---
+
+### 🔹 Partitioning Strategies
+
+- Applied partitioning on large tables to:
+  - Reduce scanned data
+  - Improve query performance
+- Ensures only **relevant partitions** are read during query execution
+
+---
+
+### 🔹 OPTIMIZE & ZORDER
+
+- **OPTIMIZE**
+  - Compacts many small files into fewer large files
+  - Reduces file scan overhead
+
+- **ZORDER**
+  - Colocates related data on disk
+  - Significantly speeds up filtered queries
+
+---
+
+### 🔹 Caching Techniques
+
+- Cached frequently accessed tables
+- Benefits:
+  - Reduces recomputation
+  - Improves performance for iterative and repeated workloads
+
 
 ### 🔖 Hashtags
 `#Databricks` `#AIChallenge` `#ApacheSpark` `#PySpark` `#BigData` `#DataEngineering` `#DatabricksWithIDC`
